@@ -1,0 +1,12 @@
+[package]
+name = "mtg-arena-debug-parser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4.21"
+rayon = "1.9.0"
+serde_json = "1.0.114"
+tracing-subscriber = "0.3.18"
