@@ -1,0 +1,17 @@
+create table cardForeignData as select * from read_parquet('cardForeignData.parquet');
+create table cardPurchaseUrls as select * from read_parquet('cardPurchaseUrls.parquet');
+create table setBoosterContentWeights as select* from read_parquet('setBoosterContentWeights.parquet');
+create table setTranslations as select * from read_parquet('setTranslations.parquet');
+create table cardIdentifiers as select * from read_parquet('cardIdentifiers.parquet');
+create table cardRulings as select * from read_parquet('cardRulings.parquet');
+create table setBoosterContents as select * from read_parquet('setBoosterContents.parquet');
+create table sets as select * from read_parquet('sets.parquet');
+create table cardLegalities as select * from read_parquet('cardLegalities.parquet');
+create table cards as select * from read_parquet('cards.parquet');
+create table setBoosterSheetCards as select * from read_parquet('setBoosterSheetCards.parquet');
+create table tokenIdentifiers as select * from read_parquet('tokenIdentifiers.parquet');
+create table cardPrices as select * from read_parquet('cardPrices.parquet');
+create table meta as select * from read_parquet('meta.parquet');
+create table setBoosterSheets as select * from read_parquet('setBoosterSheets.parquet');
+create table tokens as select * from read_parquet('tokens.parquet');
+
